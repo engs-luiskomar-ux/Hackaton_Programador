@@ -33,3 +33,9 @@ body {
     border-bottom: 1px solid var(--neon-green);
     color: #ffffff;
 }
+
+.logo {
+    font-family: var(--font-title);
+    font-size: 1.5rem;
+    letter-spacing: -1px;
+}
