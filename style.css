@@ -49,3 +49,14 @@ body {
 .navbar a:hover {
     color: white;
 }
+
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    
+    background: url('https://static.vecteezy.com/ti/vetor-gratis/p1/2184697-abstrato-azul-circuito-tecnologia-fundo-vetor.jpg') no-repeat center center/cover;
+}
