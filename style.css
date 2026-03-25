@@ -10,3 +10,17 @@ body {
     font-family: var(--fonte-texto);
     overflow-x: hidden;
 }
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    background: rgb(14, 8, 182);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    border-bottom: 1px solid var(--neon-green);
+    
+}
