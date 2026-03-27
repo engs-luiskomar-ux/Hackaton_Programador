@@ -107,3 +107,48 @@ body {
     margin: 40px 0;
 }
 
+.time-box{
+    background: rgba(255, 255, 255, 0.05);
+    padding:20px 50px;
+    border-radius: 8px;
+    border: 1px solid var(--verde-neon);
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-main:hover { 
+    transform: translateX(-50) scale(1.05);
+    box-shadow: 0 0 20px var(--verde-neon);
+    background-color: var(--azul-neon);
+}
