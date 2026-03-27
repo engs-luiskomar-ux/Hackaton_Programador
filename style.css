@@ -99,3 +99,9 @@ body {
     from { text-shadow: 0 0 10px var(--azul-neon); }
     to { text-shadow: 0 0 25px var(--azul-neon), 0 0 10px var(--verde-neon); }
 }
+  
+.countdown-container {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
