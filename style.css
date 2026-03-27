@@ -100,8 +100,16 @@ body {
     to { text-shadow: 0 0 25px var(--azul-neon), 0 0 10px var(--verde-neon); }
 }
   
+<!-- caixa central de dias faltando
 .countdown-container {
     display: flex;
     justify-content: center;
     margin: 40px 0;
+}
+
+.time-box{
+    background: rgba(255, 255, 255, 0.05);
+    padding:20px 50px;
+    border-radius: 8px;
+
 }
