@@ -105,3 +105,25 @@ body {
     justify-content: center;
     margin: 40px 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.time-box span {
+    display: block;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: var(--verde-neon);
+    font-family: var(--fonte-titulo);
+    line-height: 1;
+    margin-bottom: 5px;
+}
