@@ -100,6 +100,7 @@ body {
     to { text-shadow: 0 0 25px var(--azul-neon), 0 0 10px var(--verde-neon); }
 }
   
+<!-- caixa central de dias faltando
 .countdown-container {
     display: flex;
     justify-content: center;
@@ -107,42 +108,3 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-.time-box span {
-    display: block;
-    font-size: 3.5rem;
-    font-weight: bold;
-    color: var(--verde-neon);
-    font-family: var(--fonte-titulo);
-    line-height: 1;
-    margin-bottom: 5px;
-}
-
-.cta-wrapper {
-    position: relative;
-    height: 60px;
-    margin-top: 30px;
-}
-
-.btn-main {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    background: var(--verde-neon);
-    color: black;
-    padding: 15px 40px;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
-}
