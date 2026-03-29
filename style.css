@@ -344,6 +344,11 @@ label{
 input[type="text"],
 input[type="email"],
 select {
-
-
+  width: 100%;
+  padding: 10px;
+  background: transparent;
+  border: 1px solid #555;
+  color: white;
+  border-radius: 4px;
+  transition: border-color 0.3s;
 }
