@@ -138,7 +138,14 @@ body {
 .btn-main {
     position: absolute;
     left: 50%;
-    
+    transform: translateX(-50%);
+    background: var(--verde-neon);
+    color: black;
+    padding: 15px 40px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
 }
 
 
