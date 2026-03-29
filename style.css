@@ -184,7 +184,8 @@ body {
     border: 1px solid var(--borda-escura);
     border-radius: 4px;
     display: flex;
-    
+    align-items: center;
+    transition: transform 0.2s, border-color 0.2s;
 }
 
 
