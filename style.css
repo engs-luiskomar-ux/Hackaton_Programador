@@ -187,3 +187,11 @@ body {
     flex-wrap: wrap;
 }
 
+/*transformação rotação y*/
+.flip-card {
+    background-color: transparent;
+    width: 280px;
+    height: 380px;
+    perspective: 1000px;
+}
+
