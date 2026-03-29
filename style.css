@@ -193,6 +193,11 @@ body {
     border-color: var(--verde-neon);
 }
 
+.grid-item.time {
+    font-family: var(--fonte-titulo);
+    color: var(--verde-neon);
+    justify-content: center;
+}
 
 
 
