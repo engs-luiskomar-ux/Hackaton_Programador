@@ -134,7 +134,9 @@ body {
 }
 
 .btn-main:hover {
-
+    transform: translateX(-50%) scale(1.05);
+    box-shadow: 0 0 20px var(--verde-neon);
+    background-color: var(--azul-neon);
 }
 
 
