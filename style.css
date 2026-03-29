@@ -139,8 +139,15 @@ body {
     background-color: var(--azul-neon);
 }
 
-
-
+/*estrutura paginas individuais*/
+.page-content {
+    padding-top: 120px;
+    min-height: calc(100vh - 60px);
+    padding-bottom: 40px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 
 
