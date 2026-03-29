@@ -1,3 +1,4 @@
+/*VARIÁVEIS GLOBAIS (CORES E FONTES)*/
 :root {
     --fundo-escuro: #0a0a0b;
     --verde-neon: #00ff95;
@@ -21,6 +22,7 @@ body {
     overflow-x: hidden;
 }
 
+/*CABEÇALHO E MENU (NAVBAR)*/
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -63,6 +65,7 @@ body {
     text-shadow: 0 0 8px var(--verde-neon);
 }
 
+/*PÁGINA INICIAL (HERO SECTION)*/
 .hero {
     height: 100vh;
     display: flex;
@@ -73,7 +76,7 @@ body {
     background: url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80') no-repeat center center/cover;
 }
 
-
+/* Requisito: Position Absolute */
 .hero-overlay {
     position: absolute;
     top: 0;
@@ -98,8 +101,10 @@ body {
 @keyframes brilhoNeon {
     from { text-shadow: 0 0 10px var(--azul-neon); }
     to { text-shadow: 0 0 25px var(--azul-neon), 0 0 10px var(--verde-neon); }
+
 }
-  
+
+/* Caixa central de Dias Faltando */
 .countdown-container {
     display: flex;
     justify-content: center;
@@ -119,8 +124,15 @@ body {
     font-weight: bold;
     color: var(--verde-neon);
     font-family: var(--fonte-titulo);
+    line-height: 1;
+    margin-bottom: 5px;
 }
 
+.cta-wrapper {
+    position: relative;
+    height: 60px;
+    margin-top: 30px;
+}
 
 
 
