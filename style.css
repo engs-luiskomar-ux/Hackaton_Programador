@@ -163,7 +163,7 @@ body {
     display: grid;
     grid-template-columns: 150px 1fr 200px;
     gap: 15px;
-    background: rgb(31, 1, 178);
+    background: rgba(255, 255, 255, 0.02);
     padding: 20px;
     border-radius: 10px;
     border: 1px solid var(--borda-escura);
@@ -171,7 +171,7 @@ body {
 
 .grid-header {
     background: var(--azul-neon);
-    color: rgb(31, 1, 178);
+    color: rgb(0, 0, 0);
     font-weight: bold;
     padding: 15px;
     text-align: center;
