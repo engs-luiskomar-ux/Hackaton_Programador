@@ -179,12 +179,19 @@ body {
 
 
 /*--Pagina Palestrantes--*/
+.page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .cards-container {
     display:flex;
     gap: 30px;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: center;
+    
 }
 
 /*transformação rotação y*/
