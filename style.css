@@ -118,31 +118,9 @@ body {
     border: 1px solid var(--verde-neon);
     text-align: center;
 }
-.time-box span {
-    display: block;
-    font-size: 3.5rem;
-    font-weight: bold;
-    color: var(--verde-neon);
-    font-family: var(--fonte-titulo);
-    line-height: 1;
-    margin-bottom: 5px;
-}
 
-.cta-wrapper {
-    position: relative;
-    height: 60px;
-    margin-top: 30px;
-}
 
-/* Requisito: Position Absolute no botão */
-.btn-main {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    background: var(--verde-neon);
-    color: black;
-    padding: 15px 40px;
-}
+
 
 
 
