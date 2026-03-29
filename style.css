@@ -120,7 +120,12 @@ body {
 }
 
 
-
+/* Requisito: Position Absolute no botão */
+.btn-main {
+    position: absolute;
+    left: 50%;
+    
+}
 
 
 
