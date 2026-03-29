@@ -119,12 +119,14 @@ body {
     text-align: center;
 }
 
-
 /* Requisito: Position Absolute no botão */
 .btn-main {
     position: absolute;
     left: 50%;
-    
+    transform: translateX(-50%);
+    background: var(--verde-neon);
+    color: black;
+    padding: 15px 40px;
 }
 
 
