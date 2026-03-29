@@ -324,6 +324,8 @@ border:1px solid var(--borda-escura)
 }
 
 fieldset {
-
-
+  border: 1px solid var(--neon-green);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
 }
