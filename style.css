@@ -157,6 +157,18 @@ body {
     font-size: 2.5rem;
 }
 
+/* 4. PÁGINA: CRONOGRAMA */
+
+.grid-cronograma {
+    display: grid;
+    grid-template-columns: 150px 1fr 200px;
+    gap: 15px;
+    background: rgba(255, 255, 255, 0.02);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid var(--borda-escura);
+}
+
 
 
 
