@@ -245,3 +245,11 @@ border:1px solid var(--borda-escura)
     color:black;
     transform: rotateY(180deg);
 }
+
+/*estilo do link no verso*/
+.flip-card-back a {
+    color: black;
+    font-weight: bold ;
+    margin-top: 20px;
+    text-decoration: underline;
+}
