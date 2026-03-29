@@ -148,6 +148,12 @@ body {
     transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
 }
 
+.btn-main:hover{
+    transform: translateX(-50%) scale(7.05);
+    box-shadow: 0 0 700px var(--verde-neon);
+    background-color: var(--azul-neon);
+}
+
 
 
 
