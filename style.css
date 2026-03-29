@@ -175,3 +175,15 @@ body {
     box-shadow: 0 0 20px var(--verde-neon);
     background-color: var(--azul-neon);
 }
+
+
+
+/*--Pagina Palestrantes--*/
+
+.cards-container {
+    display:flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
