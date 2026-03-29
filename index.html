@@ -3,47 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hackathon Programação Campo Real</title>
+    <title>Inscrição - Hackathon Campo Real</title>
+    
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&family=Inter:wght@400;700&display=swap">
 </head>
 <body>
+
     <header class="navbar">
-        <div class="logo">CAMPO REAL<span> HACKATHON</span></div>
+        <div class="logo">CAMPO REAL <span> HACKATHON</span></div>
         <nav>
             <ul class="nav-links">
-                <li><a href="index.html" class="active ">Início</a></li>
+                <li><a href="index.html">Inicio</a></li>
                 <li><a href="cronograma.html">Cronograma</a></li>
                 <li><a href="palestrantes.html">Palestrantes</a></li>
-                <li><a href="inscricao.html">Inscrição</a></li>
+                <li><a href="inscricao.html" class="active">Inscrição</a></li>
             </ul>
         </nav>
     </header>
 
-<main class="hero">
-        <div class="hero-overlay"></div>
-        <div class="hero-content">
-            <h1 class="glitch-text">Campo Real</h1>
-            <p>A Revolução Tecnológica</p>
+    <main class="page-content">
+        <h1 class="page-title">Garanta sua Vaga</h1>
+         
+        <form class="inscricao-form" action="#" method="POST">
+            <fieldset>
+                <legend>Dados da Equipe</legend>
+                <label for="nomeEquipe">Nome da Equipe:</label>
+                <input type="text" id="nomeEquipe" name="nomeEquipe" required>
+                
+                <label for="emailLider">E-mail do Líder:</label>
+                <input type="email" id="emailLider" name="emailLider" required>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Nível Técnico</legend>
+                <label for="experiencia">Qual a experiência média do grupo?</label>
+                <select id="experiencia" name="experiencia">
+                    <option value="iniciante">Iniciante (1º a 3º semestre)</option>
+                    <option value="intermediario">Intermediário (4º a 6º semestre)</option>
+                    <option value="avancado">Avançado (7º semestre em diante)</option>
+                </select>
+            </fieldset>
 
-            <div class="countdown-container">
-                <div class="time-box">
-                    <p>1</p>
-                    <p>DIA</p>
-                    
-                    <span id="text">30/03/2026</span>
-
-                    <div class="cta-wrapper">
-                <a href="" class="btn-main">INSCREVA-SE JÁ!</a>
+            <div class="checkbox-group">
+                <input type="checkbox" id="acessibilidade" name="acessibilidade">
+                <label for="acessibilidade">Nossa equipe possui necessidades de acessibilidade.</label>
             </div>
-        </div>
-    </main>
 
+             <button type="submit" class="btn-main submit-btn">Confirmar Inscrição</button>
+        </form>
+    </main>
     <footer>
-        <p>&copy; Hackathon Campo Real </p>
+        <p>&copy; 2026 Hackathon Campo Real</p>
     </footer>
-                    
 
 </body>
 </html>
