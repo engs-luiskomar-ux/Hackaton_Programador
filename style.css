@@ -331,5 +331,7 @@ fieldset {
 }
 
 legend {
-
+  color: var(--neon-green);
+  padding: 0 10px;
+  font-weight: bold;
 }
