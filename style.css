@@ -100,7 +100,6 @@ body {
     to { text-shadow: 0 0 25px var(--azul-neon), 0 0 10px var(--verde-neon); }
 }
   
-<!-- caixa central de dias faltando
 .countdown-container {
     display: flex;
     justify-content: center;
@@ -114,7 +113,13 @@ body {
     border: 1px solid var(--verde-neon);
     text-align: center;
 }
-
+.time-box span {
+    display: block;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: var(--verde-neon);
+    font-family: var(--fonte-titulo);
+}
 
 
 
