@@ -239,3 +239,9 @@ border:1px solid var(--borda-escura)
     border: 2px solid var(--azul-neon);
 }
 
+/*estilização da parte traseira*/
+.flip-card-back {
+    background-color: var(--azul-neon);
+    color:black;
+    transform: rotateY(180deg);
+}
