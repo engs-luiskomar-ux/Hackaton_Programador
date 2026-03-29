@@ -134,6 +134,11 @@ body {
     margin-top: 30px;
 }
 
+/* Requisito: Position Absolute no botão */
+.btn-main {
+    position: absolute;
+    left: 50%;
+}
 
 
 
