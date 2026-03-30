@@ -106,6 +106,18 @@ body {
     width: 100%;
 }
 
+.nav-links a {
+    text-decoration: none;
+    color: var(--texto-claro);
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 15px 30px;
+    display: block;
+    text-align: center;
+    transition: 0.3s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
 
 /*PÁGINA INICIAL (HERO SECTION)*/
 .hero {
