@@ -54,6 +54,15 @@ body {
     position: absolute;
 }
 
+.hamburguer {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    cursor: pointer;
+    z-index: 1100;
+    margin-left: auto;
+    padding: 10px;
+}
 
 
 
