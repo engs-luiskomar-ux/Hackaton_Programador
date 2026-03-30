@@ -48,6 +48,15 @@ body {
     text-shadow: 0 0 10px var(--verde-neon);
 }
 
+/* Mecanismo do Hambúrguer */
+#menu-check {
+    display: none;
+    position: absolute;
+}
+
+
+
+
 .nav-links {
     display: flex;
     list-style: none;
