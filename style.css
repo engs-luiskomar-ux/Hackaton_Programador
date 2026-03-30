@@ -38,6 +38,11 @@ body {
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
 }
 
+/* Esconde o checkbox */
+#menu-check {
+    display: none;
+}
+
 .logo {
     font-family: var(--fonte-titulo);
     font-size: 1.5rem;
@@ -53,6 +58,29 @@ body {
     display: none;
     position: absolute;
 }
+
+/* Esconde o ícone no computador */
+.hamburguer {
+    display: none;
+    flex-direction: column;
+    gap: 6px;
+    cursor: pointer;
+    z-index: 1101;
+}
+
+@media (max-width: 768px) {
+    .hamburguer {
+        display: flex; 
+
+        }
+    }
+    
+.nav-links {
+        position: fixed;
+        top: 0;
+        right: -100%; /* Começa escondido fora da tela */
+        width: 70%;
+    }
 
 .hamburguer {
     display: flex;
