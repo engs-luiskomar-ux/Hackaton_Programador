@@ -119,23 +119,28 @@ body {
     text-align: center;
 }
 
-/*Position Absolute no botão */
+/* Position Absolute no botão - Corrigido */
 .btn-main {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     background: var(--verde-neon);
     color: black;
-    padding: 15px 40px;
+    padding: 18px 60px; 
     text-decoration: none;
     font-weight: bold;
+    text-transform: uppercase;
     border-radius: 5px;
+    white-space: nowrap; 
+    min-width: 250px;
+    text-align: center;
     transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+    z-index: 10;
 }
 
 .btn-main:hover {
-    transform: translateX(-50%) scale(1.05);
-    box-shadow: 0 0 20px var(--verde-neon);
+    transform: translateX(-50%) scale(1.1); 
+    box-shadow: 0 0 30px var(--verde-neon);
     background-color: var(--azul-neon);
 }
 
