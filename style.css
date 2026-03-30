@@ -387,34 +387,42 @@ border:1px solid var(--borda-escura)
     text-decoration: underline;
 }
 
-/* --- ESTILIZAÇÃO DO FORMULÁRIO (ATUALIZADO) --- */
+/* --- ESTILIZAÇÃO DO FORMULÁRIO (VERSÃO FINAL CORRIGIDA) --- */
 .inscricao-form {
     max-width: 600px;
-    margin: 0 auto;
-    background: rgba(0, 0, 0, 0.5);
+    margin: 40px auto; /* Centraliza o formulário e afasta do topo */
+    background: rgba(255, 255, 255, 0.03);
     padding: 30px;
     border: 1px solid #333;
-    border-radius: 8px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
 }
 
 fieldset {
-    border: 1px solid var(--verde-neon); /* Corrigido de neon-green para verde-neon */
+    border: 1px solid var(--verde-neon);
     padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 5px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.2);
 }
 
 legend {
-    color: var(--verde-neon); /* Corrigido para verde-neon */
-    padding: 0 10px;
+    color: var(--verde-neon);
+    padding: 0 12px;
     font-weight: bold;
     font-family: var(--fonte-titulo);
+    font-size: 0.9rem;
+    text-transform: uppercase;
 }
 
 label {
     display: block;
-    margin: 10px 0 5px;
+    margin: 15px 0 8px;
+    font-size: 0.9rem;
     color: var(--texto-claro);
+    text-align: left;
 }
 
 input[type="text"],
@@ -422,41 +430,32 @@ input[type="email"],
 select {
     width: 100%;
     padding: 12px;
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid #555;
+    background: #161618;
+    border: 1px solid #444;
     color: white;
-    border-radius: 4px;
-    transition: border-color 0.3s;
+    border-radius: 6px;
     font-family: var(--fonte-texto);
-}
-
-/* --- RESOLUÇÃO DO PROBLEMA DAS OPÇÕES INVISÍVEIS --- */
-select {
-    appearance: none; /* Remove o estilo padrão do sistema */
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%2300ff95' viewBox='0 0 16 16'%3E%3Cpath d='M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/%3E%3C/svg%3E");
-    background-repeat: no-repeat;
-    background-position: right 15px center;
-    color-scheme: dark; /* Força o navegador a usar cores de tema escuro */
-}
-
-select option {
-    background-color: #1a1a1c; /* Cor de fundo das opções */
-    color: white;              /* Cor do texto das opções */
-}
-
-input:focus,
-select:focus {
-    border-color: var(--verde-neon);
+    transition: 0.3s;
     outline: none;
-    box-shadow: 0 0 10px rgba(0, 255, 149, 0.2);
 }
 
-/* Estilo do Checkbox Neon */
+/* Garante que as opções do Select sejam visíveis */
+select option {
+    background-color: #161618;
+    color: white;
+}
+
+input:focus, select:focus {
+    border-color: var(--azul-neon);
+    box-shadow: 0 0 10px rgba(0, 217, 255, 0.2);
+}
+
+/* Estilo do Checkbox */
 .checkbox-group {
     display: flex;
     align-items: center;
-    gap: 10px;
-    margin: 20px 0;
+    gap: 12px;
+    margin: 10px 0 25px 0;
 }
 
 .checkbox-group input[type="checkbox"] {
@@ -466,12 +465,27 @@ select:focus {
     cursor: pointer;
 }
 
+/* --- BOTÃO DE CONFIRMAÇÃO (REPARADO) --- */
 .submit-btn {
-    position: relative; /* Mudado de static para relative */
-    width: 100%;
+    position: relative;
     left: 0;
     transform: none;
-    margin-top: 20px;
+    width: 100%;
+    background: var(--azul-neon);
+    color: #000;
+    padding: 18px;
+    font-weight: bold;
     border: none;
+    border-radius: 6px;
     cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s;
+    box-shadow: 0 0 20px rgba(0, 217, 255, 0.4);
+    font-family: var(--fonte-titulo);
+}
+
+.submit-btn:hover {
+    background: var(--verde-neon);
+    box-shadow: 0 0 30px var(--verde-neon);
+    transform: translateY(-3px);
 }
