@@ -387,10 +387,10 @@ border:1px solid var(--borda-escura)
     text-decoration: underline;
 }
 
-/* --- ESTILIZAÇÃO DO FORMULÁRIO (VERSÃO FINAL CORRIGIDA) --- */
+/* --- ESTILIZAÇÃO DO FORMULÁRIO Thiago --- */
 .inscricao-form {
     max-width: 600px;
-    margin: 40px auto; /* Centraliza o formulário e afasta do topo */
+    margin: 40px auto; 
     background: rgba(255, 255, 255, 0.03);
     padding: 30px;
     border: 1px solid #333;
