@@ -118,6 +118,13 @@ body {
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+.nav-links a:hover, .nav-links a.active {
+    color: var(--verde-neon);
+    background: rgba(0, 255, 149, 0.05);
+    text-shadow: 0 0 8px var(--verde-neon);
+}
+
+
 
 /*PÁGINA INICIAL (HERO SECTION)*/
 .hero {
