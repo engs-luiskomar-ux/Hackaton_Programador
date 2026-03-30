@@ -64,6 +64,15 @@ body {
     padding: 10px;
 }
 
+.hamburguer span {
+    display: block;
+    width: 28px;
+    height: 3px;
+    background-color: var(--verde-neon);
+    border-radius: 2px;
+    transition: 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    box-shadow: 0 0 8px rgba(0, 255, 149, 0.5);
+}
 
 
 .nav-links {
