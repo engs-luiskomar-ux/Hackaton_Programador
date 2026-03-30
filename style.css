@@ -494,42 +494,78 @@ input:focus, select:focus {
    AJUSTE DE RESPONSIVIDADE 
     */
 @media (max-width: 768px) {
-  
     .grid-cronograma {
-        grid-template-columns: 1fr; 
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 12px;
         padding: 10px;
     }
 
-   
     .grid-header {
-        display: none; 
+        display: none;
     }
 
-    
     .grid-item {
-        text-align: center;
-        justify-content: center;
-        font-size: 0.9rem;
+        text-align: left;
+        justify-content: flex-start;
+        font-size: 0.95rem;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.08);
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        padding: 14px;
+        position: relative;
+        min-height: auto;
+        display: block;
     }
 
-    
     .grid-item.time {
-        background: rgba(0, 217, 255, 0.1);
-        margin-top: 10px; 
+        background: rgba(0, 217, 255, 0.14);
+        color: var(--azul-neon);
+        font-family: var(--fonte-titulo);
+        margin-top: 0;
+        font-size: 1rem;
     }
-    
-   
+
+    .grid-item.time::before {
+        content: "Horário";
+        display: block;
+        font-size: 0.8rem;
+        color: rgba(255, 255, 255, 0.8);
+        font-weight: 600;
+        margin-bottom: 6px;
+    }
+
+    .grid-item:nth-of-type(3n+2)::before {
+        content: "Atividade";
+        display: block;
+        font-size: 0.8rem;
+        color: rgba(255, 255, 255, 0.8);
+        font-weight: 600;
+        margin-bottom: 6px;
+    }
+
+    .grid-item:nth-of-type(3n+3)::before {
+        content: "Local";
+        display: block;
+        font-size: 0.8rem;
+        color: rgba(255, 255, 255, 0.8);
+        font-weight: 600;
+        margin-bottom: 6px;
+    }
+
     .navbar {
         flex-direction: column;
         padding: 15px;
     }
+
     .nav-links {
         flex-wrap: wrap;
         justify-content: center;
         gap: 15px;
         margin-top: 10px;
     }
+
     .page-content {
-        padding-top: 140px; 
+        padding-top: 140px;
     }
 }
